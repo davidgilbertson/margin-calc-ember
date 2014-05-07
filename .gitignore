@@ -1,5 +1,7 @@
 logs/*
 !.gitkeep
+.sublime-project
+.sublime-workspace
 node_modules/
 bower_components/
 tmp
