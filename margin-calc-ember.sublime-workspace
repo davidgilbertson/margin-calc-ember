@@ -7,6 +7,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5419,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/dev/margin-calc/app/partials/calculator.html",
+			"settings":
+			{
+				"buffer_size": 2794,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/dev/margin-calc/app/index.html",
+			"settings":
+			{
+				"buffer_size": 1679,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index-todo.html",
+			"settings":
+			{
+				"buffer_size": 2994,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -88,6 +128,9 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/dev/margin-calc-ember/readme.md",
+		"/C/xampp/htdocs/dev/margin-calc-ember/.gitignore",
+		"/C/xampp/htdocs/dev/guam/app/partials/main.html",
 		"/C/Users/David/Desktop/New Text Document.txt",
 		"/C/xampp/htdocs/dev/margin-calc-ember/bower.json",
 		"/C/xampp/htdocs/dev/margin-calc-ember/package.json",
@@ -116,7 +159,6 @@
 		"/C/xampp/htdocs/dev/guam/app/api/secObjects.json",
 		"/C/xampp/htdocs/dev/guam/app/api/userToGroupRels.json",
 		"/C/xampp/htdocs/dev/guam/app/api/groupToSecObjectRels.json",
-		"/C/xampp/htdocs/dev/guam/app/partials/main.html",
 		"/C/xampp/htdocs/dev/guam/app/partials/secObjectNode.html",
 		"/C/xampp/htdocs/dev/guam/app/partials/settings.html",
 		"/C/xampp/htdocs/dev/guam/start everything.bat",
@@ -216,6 +258,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"todo",
 			"activeClass",
 			"libs",
 			"app/",
@@ -289,8 +332,157 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5045,
+								5045
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1458.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/dev/margin-calc/app/partials/calculator.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/dev/margin-calc/app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index-todo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2401,
+								2976
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
