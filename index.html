@@ -7,30 +7,56 @@
 </head>
 <body>
 
-  <div class="navbar navbar-inverse" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Margin Calculator</a>
+
+
+
+
+  <script type="text/x-handlebars" data-template-name="application">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Margin Calculator</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+              {{#link-to 'calculator' tagName="li"}}
+                {{#link-to 'calculator'}}Home{{/link-to}}
+              {{/link-to}}
+              {{#link-to 'help' tagName="li"}}
+                {{#link-to 'help'}}Help{{/link-to}}
+              {{/link-to}}
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#/">Home</a></li>
-          <li><a href="#/setti  s">Settings</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
     </div>
-  </div>
+
+    <!-- pre-outlet -->
+    {{outlet}}
+    <!-- post-outlet -->
+
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="index-xx">
+    <h1>Hi there, I'm index</h1>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="help-xx">
+    <h1>Hi there, I'm the Help</h1>
+  </script>
+
 
   <!-- pre-outlet -->
   <!-- {{outlet}} -->
   <!-- post-outlet -->
-
+  <script type="text/x-handlebars" data-template-name="help">
+    <h1>Hi there, I'm the Help</h1>
+  </script>
 
   <script type="text/x-handlebars" data-template-name="calculator">
     <div class="container">
@@ -75,19 +101,22 @@
                 <div class="form-group">
                   <label class="col-xs-5 control-label">Margin $</label>
                   <div class="col-xs-7">
-                    <input class="form-control form-control-calc">
+                    {{!-- <input class="form-control form-control-calc"> --}}
+                    {{input class="form-control form-control-calc" value=mgd}}
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="col-xs-5 control-label">Margin %</label>
                   <div class="col-xs-7">
-                    <input class="form-control form-control-calc">
+                    {{!-- <input class="form-control form-control-calc"> --}}
+                    {{input class="form-control form-control-calc" value=mgp}}
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="col-xs-5 control-label">Markup %</label>
                   <div class="col-xs-7">
-                    <input class="form-control form-control-calc">
+                    {{!-- <input class="form-control form-control-calc"> --}}
+                    {{input class="form-control form-control-calc" value=mkp}}
                   </div>
                 </div>
               </form>
@@ -108,8 +137,9 @@
   <script src="js/vendor/handlebars.js"></script>
   <script src="js/vendor/ember.js"></script>
   <script src="js/vendor/ember-data.js"></script>
-  <script src="js/vendor/localstorage_adapter.js"></script>
+  <script src="js/vendor/bootstrap/collapse.js"></script>
 
+  <script src="js/utils.js"></script>
   <script src="js/application.js"></script>
   <script src="js/router.js"></script>
   <script src="js/models/calculator.js"></script>
