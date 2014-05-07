@@ -1,0 +1,382 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"toggle lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"linter theme",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: Function"
+			],
+			[
+				"",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"Snippet: ",
+				"Snippet: |json"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 315.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/David/Desktop/New Text Document.txt",
+		"/C/xampp/htdocs/dev/margin-calc-ember/bower.json",
+		"/C/xampp/htdocs/dev/margin-calc-ember/package.json",
+		"/C/xampp/htdocs/dev/todoMVC-ember/js/application.js",
+		"/C/xampp/htdocs/dev/todoMVC-ember/js/router.js",
+		"/C/xampp/htdocs/dev/todoMVC-ember/sass/main.scss",
+		"/C/xampp/htdocs/dev/todoMVC-ember/bower_components/ember/ember.js",
+		"/C/xampp/htdocs/dev/fairfax/css/app.css",
+		"/C/xampp/htdocs/dev/fairfax/sass/app.scss",
+		"/C/xampp/htdocs/dev/guam/app/index.html",
+		"/C/xampp/htdocs/dev/guam/app/js/app.js",
+		"/C/xampp/htdocs/dev/guam/test/unit/controllersSpec.js",
+		"/C/xampp/htdocs/dev/guam/bower.json",
+		"/C/xampp/htdocs/dev/guam/.jshintrc",
+		"/C/xampp/htdocs/dev/guam/Gruntfile.js",
+		"/C/xampp/htdocs/dev/guam/package.json",
+		"/C/xampp/htdocs/dev/guam/test/karma.conf.js",
+		"/C/xampp/htdocs/dev/guam/test/unit/directivesSpec.js",
+		"/C/xampp/htdocs/dev/guam/test/unit/filtersSpec.js",
+		"/C/xampp/htdocs/dev/guam/test/unit/servicesSpec.js",
+		"/C/xampp/htdocs/dev/guam/app/js/controllers.js",
+		"/C/xampp/htdocs/dev/guam/app/js/directives.js",
+		"/C/xampp/htdocs/dev/guam/app/js/services.js",
+		"/C/xampp/htdocs/dev/guam/app/api/users.json",
+		"/C/xampp/htdocs/dev/guam/app/api/userGroups.json",
+		"/C/xampp/htdocs/dev/guam/app/api/secObjects.json",
+		"/C/xampp/htdocs/dev/guam/app/api/userToGroupRels.json",
+		"/C/xampp/htdocs/dev/guam/app/api/groupToSecObjectRels.json",
+		"/C/xampp/htdocs/dev/guam/app/partials/main.html",
+		"/C/xampp/htdocs/dev/guam/app/partials/secObjectNode.html",
+		"/C/xampp/htdocs/dev/guam/app/partials/settings.html",
+		"/C/xampp/htdocs/dev/guam/start everything.bat",
+		"/C/Users/David/Source/Repos/GUAM/Guam/Scripts/app/utils.js",
+		"/C/Users/David/Source/Repos/GUAM/Guam/Scripts/app/viewModels.js",
+		"/C/Users/David/Source/Repos/GUAM/Guam/Scripts/app/viewModels/App.js",
+		"/C/Users/David/Source/Repos/GUAM/Guam/Scripts/app/viewModels/SecObject.js",
+		"/C/Users/David/Source/Repos/GUAM/Guam/Scripts/app/viewModels/GroupToSecObject.js",
+		"/C/Users/David/Source/Repos/GUAM/Guam/Scripts/app/events.js",
+		"/C/Users/David/Source/Repos/GUAM/Guam/Scripts/app/main.js",
+		"/C/xampp/htdocs/dev/guam 2012-05-03 (junk, not sure where it's up to)/sass/main.scss",
+		"/C/xampp/htdocs/dev/guam 2012-05-03 (junk, not sure where it's up to)/package.json",
+		"/C/xampp/htdocs/dev/guam/app/css/app.css",
+		"/C/xampp/htdocs/dev/guam/app/js/filters.js",
+		"/C/Users/David/AppData/Local/Temp/Temp1_bootstrap-3.1.1-dist (1).zip/bootstrap-3.1.1-dist/css/bootstrap.css",
+		"/C/xampp/htdocs/dev/guam/.gitignore",
+		"/C/xampp/htdocs/dev/guam/app/partials/help.html",
+		"/C/xampp/htdocs/dev/guam/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/package.json",
+		"/C/xampp/htdocs/dev/guam/app/js/vendor/angular-mocks.js",
+		"/C/xampp/htdocs/dev/guam/app/js/vendor/angular.js",
+		"/C/xampp/htdocs/dev/guam/bower_components/angular/angular.js",
+		"/C/xampp/htdocs/dev/guam/bower_components/angular-mocks/angular-mocks.js",
+		"/C/xampp/htdocs/dev/guam/bower_components/angular-route/README.md",
+		"/C/xampp/htdocs/dev/guam/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/readme.md",
+		"/C/xampp/htdocs/dev/guam/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/commandable.js",
+		"/C/xampp/htdocs/dev/guam/node_modules/http-server/package.json",
+		"/C/xampp/htdocs/dev/guam/node_modules/http-server/README.md",
+		"/C/xampp/htdocs/dev/guam/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/i/test/inflector/cases.js",
+		"/C/xampp/htdocs/dev/guam/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/package.json",
+		"/C/xampp/htdocs/dev/guam/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/readme.markdown",
+		"/C/xampp/htdocs/dev/guam/app/index-async.html",
+		"/C/xampp/htdocs/dev/guam 2012-05-03 (junk, not sure where it's up to)/index.php",
+		"/C/xampp/htdocs/dev/guam/app/sass/app.scss",
+		"/C/xampp/htdocs/dev/margin-calc/jasmine/SpecRunner.html",
+		"/C/xampp/htdocs/dev/margin-calc/jasmine/spec/SpecHelper.js",
+		"/C/xampp/htdocs/dev/margin-calc/jasmine/spec/PlayerSpec.js",
+		"/C/xampp/htdocs/dev/margin-calc/jasmine/spec/controller_test.js",
+		"/C/xampp/htdocs/dev/margin-calc/.jshintrc",
+		"/C/xampp/htdocs/dev/margin-calc/test/karma.conf.js",
+		"/C/Users/David/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/xampp/htdocs/dev/margin-calc/bower_components/html5-boilerplate/index.html",
+		"/C/xampp/htdocs/dev/margin-calc/bower_components/html5-boilerplate/.bower.json",
+		"/C/xampp/htdocs/dev/margin-calc/README.md",
+		"/C/xampp/htdocs/dev/margin-calc/.gitignore",
+		"/C/xampp/htdocs/dev/utils/data.js",
+		"/C/xampp/htdocs/dev/margin-calc/app/index-async.html",
+		"/C/xampp/htdocs/dev/margin-calc/app/js/vendor/bootstrap.js",
+		"/C/xampp/htdocs/dev/marginCalc-2014-04-29 also junk/index.php",
+		"/G/Documents/WPA Files/Preferences.xml",
+		"/G/Documents/Password.txt",
+		"/C/xampp/htdocs/dev/marginCalc-2014-04-22 (no front-end framework)/index.html",
+		"/C/xampp/htdocs/dev/margin-calc/bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap.js",
+		"/C/xampp/htdocs/dev/margin-calc/bower_components/bootstrap-sass-official/bower.json",
+		"/C/xampp/htdocs/dev/margin-calc/bower_components/jquery/bower.json",
+		"/C/Users/David/AppData/Local/Temp/Temp1_bootstrap (2).zip/config.json",
+		"/C/xampp/htdocs/dev/margin-calc/app/js/vendor/require.js",
+		"/C/xampp/htdocs/dev/margin-calc/app/css/app.css",
+		"/C/xampp/htdocs/dev/margin-calc/app/sass/main.scss",
+		"/C/xampp/htdocs/dev/margin-calc/app/scss/main.scss",
+		"/C/xampp/htdocs/dev/marginCalc-2014-04-29 also junk/package.json",
+		"/C/xampp/htdocs/dev/margin-calc/app/index.html",
+		"/C/xampp/htdocs/dev/angular-phonecat/app/partials/phone-list.html",
+		"/C/xampp/htdocs/dev/angular-phonecat/app/partials/phone-detail.html",
+		"/C/xampp/htdocs/dev/angular-phonecat/app/css/animations.css",
+		"/C/Users/David/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/xampp/htdocs/dev/angular-phonecat/bower_components/angular-animate/angular-animate.js",
+		"/C/xampp/htdocs/dev/angular-phonecat/app/js/filters.js",
+		"/C/xampp/htdocs/dev/angular-phonecat/app/js/app.js",
+		"/C/xampp/htdocs/dev/angular-phonecat/app/js/controllers.js",
+		"/C/xampp/htdocs/dev/angular-phonecat/app/js/directives.js",
+		"/C/Users/David/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/dev/angular-phonecat/node_modules/protractor/example/example_spec.js",
+		"/C/xampp/htdocs/dev/angular-phonecat/node_modules/protractor/node_modules/minijasminenode/specs.sh",
+		"/C/xampp/htdocs/dev/angular-phonecat/node_modules/bower/node_modules/mout/queryString/setParam.js",
+		"/C/xampp/htdocs/dev/angular-phonecat/node_modules/.bin/shjs",
+		"/C/xampp/htdocs/dev/angular-phonecat/node_modules/protractor/node_modules/minijasminenode/spec/syntax_error.js",
+		"/C/xampp/htdocs/dev/angular-phonecat/test/unit/controllersSpec.js",
+		"/C/xampp/htdocs/dev/angular-phonecat/bower_components/jquery/test/data/core/cc_on.html",
+		"/C/xampp/htdocs/dev/angular-phonecat/app/js/services.js",
+		"/C/Users/David/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open files>",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"activeClass",
+			"libs",
+			"app/",
+			"pp",
+			"xs-9",
+			"xs-3",
+			"col-xs",
+			"h1",
+			"surname",
+			"given-name",
+			"surname",
+			"given-name",
+			"surname",
+			"given-name",
+			"surname",
+			"app/",
+			"sec-object-tree",
+			"div",
+			"temp",
+			"$controller",
+			"myApp",
+			"main",
+			".js",
+			"scope",
+			"controller",
+			"js/",
+			"script",
+			"src",
+			"currency-format",
+			"myApp",
+			"mkd",
+			"onChange",
+			"updateValues",
+			"ng-change=",
+			"currencyformat",
+			"Fields",
+			"updateTotal",
+			"values",
+			"calc",
+			"myApp",
+			"M",
+			"2.5",
+			"0.5",
+			"app",
+			"//",
+			"p",
+			"/bower_components/",
+			"css",
+			"route",
+			"script",
+			"div",
+			"js",
+			"script"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"guamApp",
+			"0.3",
+			"2.5"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "margin-calc-ember.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"spec.js",
+				"test\\unit\\filtersSpec.js"
+			],
+			[
+				"control",
+				"app\\js\\controllers.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
